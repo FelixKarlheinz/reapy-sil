@@ -1,15 +1,13 @@
 [tool.poetry]
-name = "reapy-sil"
+name = "python-reapy"
 version = "0.1.0"
-description = ""
-authors = ["Felix Weiß <weiss@soundinnovationlab.com>"]
-readme = "README.md"
-package-mode = false
+description = "A pythonic wrapper for REAPER's ReaScript Python API"
+authors = ["Roméo Després <mail.reapy@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.11.0"
-fastapi = "^0.111.0"
 psutil = "^5.9.8"
+typing-extensions = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core"]
