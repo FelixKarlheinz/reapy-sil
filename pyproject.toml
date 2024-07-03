@@ -1,13 +1,15 @@
 [tool.poetry]
-name = "python-reapy"
+name = "reapy"
 version = "0.1.0"
-description = "A pythonic wrapper for REAPER's ReaScript Python API"
-authors = ["Roméo Després <mail.reapy@gmail.com>"]
+description = ""
+authors = ["Felix Weiss <weiss@soundinnovationlab.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.11.0"
+python = "^3.11"
 psutil = "^5.9.8"
 typing-extensions = "^4.0.0"
+
 
 [build-system]
 requires = ["poetry-core"]
