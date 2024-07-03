@@ -56,7 +56,7 @@ def reconnect():
         if host is None:
             # We are outside REAPER, so this means initial import failed to
             # connect and we want to retry with default host (i.e. localhost)
-            host = "localhost"
+            host = "130.149.21.148"
         try:
             del CLIENTS[host]
         except KeyError:
@@ -136,5 +136,5 @@ def register_machine(host):
 
 
 if not reapy.is_inside_reaper():
-    connect("localhost")
+    connect("130.149.21.148")
     CLIENTS[None] = CLIENT
